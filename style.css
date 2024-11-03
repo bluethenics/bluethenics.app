@@ -1,4 +1,13 @@
-
+@media (max-width: 768px) {
+    .wrapper {
+        padding: 10px;
+        font-size: 14px;
+    }
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
 .header1 {
     background-color: darkslateblue;
 }
