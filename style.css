@@ -1,28 +1,4 @@
-.wrapper {
-    .wrapper {
-      display: flex;               /* Activate Flexbox */
-      flex-direction: row;          /* Arrange items horizontally */
-      justify-content: space-around; /* Distribute items with space around them */
-      align-items: center;          /* Center items vertically */
-      gap: 20px;                    /* Add space between items */
-      padding: 20px;                /* Add padding around the wrapper */
-    }
-    
-    .item {
-      background-color: lightblue;
-      padding: 20px;
-      border-radius: 5px;
-      text-align: center;
-      flex: 1;                      /* Make each item flexible and take equal space */
-    }
-    
-    @media (max-width: 768px) {
-      .wrapper {
-        flex-direction: column; /* Stack items vertically on smaller screens */
-      }
-    }
-}
- 
+
 .header1 {
     background-color: darkslateblue;
 }
